@@ -22,7 +22,7 @@ async function bootstrap() {
   app.enableCors();
   initSwagger(app);
 
-  await app.listen(3000);
+  await app.listen(5001);
 }
 
 void bootstrap();
